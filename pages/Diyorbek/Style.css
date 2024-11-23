@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    background: linear-gradient(to top, #03E1FFA8, #13CDC2);
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.imgFour{
+    background: linear-gradient(to left, #022335, #043A41);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainOne{
+    background: linear-gradient(to left, #022335, #043A41);
+    border-bottom: 2px solid #043A41;
+}
+.text1{
+    background: linear-gradient(to bottom, #FFFFFF, #1A3031 );
+      -webkit-background-clip: text; /* Для WebKit браузеров (Chrome, Safari) */
+      color: transparent;
+      font-size: 100px;
+      font-weight: 500;
+}
+.MainTwo{
+    background: linear-gradient(to left, #022335, #043A41);
+}
+.card{
+    background: linear-gradient(to top, #022335, #043A41);
+    width: 275px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #1f393e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
