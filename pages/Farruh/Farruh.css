@@ -1,0 +1,248 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.hero {
+  background: url('./FarruhPicture/IMAGE(1).png') no-repeat center center/cover;
+  color: white;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.navbar {
+  background: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  width: 30%;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  background: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.capabilities {
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px; 
+}
+
+.service {
+  width: 30%;
+  text-align: center;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.service img {
+  width: 30%; 
+  height: auto;
+  margin-right: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px; 
+}
+
+.service h3 {
+  margin: 15px 0 10px;
+  font-size: 1.2rem;
+}
+
+.cta {
+  padding: 40px 20px;
+  text-align: center;
+  background: #007BFF;
+  color: white;
+}
+
+.cta button {
+  background: white;
+  color: #007BFF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta button:hover {
+  background: #0056b3;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+footer {
+  background-color: #0a0e13;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 20px;
+  min-width: 200px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  color: #aaa;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-column h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-column h2 .highlight {
+  color: #1ec0ff;
+}
+
+.footer-column p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  color: #1ec0ff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-bottom a {
+  color: #1ec0ff;
+  text-decoration: none;
+}
+
+.cta{
+      background: url('./FarruhPicture/IMAGE\(8\).png') no-repeat center center/cover;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  color: black;
+}
