@@ -1,1 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+/* navbar */
+
+.nav-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #124F48;
+}
+.nav-logo {
+    height: 42px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-link {
+    color: #464646;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #0B041B;
+}
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #124F48;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 32px;
+    transition: 0.5s;
+    border: 1px solid #124F48;
+}
+.nav-btn:hover {
+    background-color: white;
+    color: #124F48;
+}
+
+/* main part */
+
+.cont {
+    padding: 20px 100px 20px 100px;
+}
+.zone-1 {
+    background-color: #E9FBF9;
+    border-radius: 16px;
+    display: flex;
+}
+.btn-group-1 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+}
+.btn-1 {
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF823B;
+    border-radius: 24px;
+    border: 1px solid #FF823B;
+    transition: 0.5s;
+}
+.icon-1 {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.btn-1:hover {
+    color: #FF823B;
+    background-color: white;
+}
+.btn-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF823B;
+    text-decoration: none;
+    gap: 15px;
+    padding: 10px 20px 10px 20px;
+    transition: 0.5s;
+    border-radius: 32px;
+}
+.btn-2:hover {
+    background-color: #FF823B;
+    color: white;
+}
+.right {
+    width: 50%;
+    padding: 40px;
+}
+.big-text-1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+.mini-div-1 {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF823B;
+    width: 20%;
+}
+.med-text-1 {
+    color: #464646;
+}
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.bg-img {
+    height: 600px;
+    margin-right: 40px;
+    z-index: 10;
+}
+.bg-bg {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
