@@ -3,6 +3,9 @@
 * {
     font-family: "Roboto", serif;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .flex { display: flex; }
 .jcsa { justify-content: space-around; }
@@ -329,4 +332,12 @@ footer {
 .info-foot {
     list-style: none;
     color: #124F48;
+}
+.mini-menu {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #124F48;
+    color: white;
 }
